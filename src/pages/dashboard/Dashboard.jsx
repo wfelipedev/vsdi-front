@@ -42,7 +42,7 @@ class Dashboard extends Component {
         toastSucced('Pessoa cadastrada com sucesso.')
       })
       .catch(error => {
-        toastError(error.response.data)
+        toastError('Verifique os dados informados. Incorretos ou já cadastrados')
       })
   }
 
