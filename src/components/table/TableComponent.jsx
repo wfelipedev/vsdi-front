@@ -68,7 +68,7 @@ function TableFunction(props) {
         setRowsd(people)
       })
       .catch(error => {
-        console.error('DEU RUIM')
+        console.error(error)
       })
   }, [rowsd])
 
