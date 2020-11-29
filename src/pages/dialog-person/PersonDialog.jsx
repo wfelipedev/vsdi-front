@@ -90,8 +90,8 @@ export default function PersonDialog(props) {
   return (
     <div>
       <Tooltip title='Cadastrar Nova Pessoa' arrow placement='bottom'>
-        <Button variant="contained" style={{ color: '#000', marginTop: '10px' }} onClick={handleClickOpen} color='default' >
-          Adicionar
+        <Button variant="contained" style={{background: '#000', color: '#fff', marginTop: '10px' }} onClick={handleClickOpen}  >
+          Nova Pessoa
         </Button>
       </Tooltip>
       <Dialog open={open} fullWidth maxWidth='md' onClose={handleClose} aria-labelledby='form-dialog-title' TransitionComponent={Transition}>

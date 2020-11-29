@@ -38,7 +38,7 @@ class Signin extends Component {
         this.props.history.push('/dashboard')
       })
       .catch(error => {
-        toastError(error.response.data)
+        toastError('Não foi possível realizar o login. Email ou senha incorretos.')
         this.setState({ loading: false })
       })
   }

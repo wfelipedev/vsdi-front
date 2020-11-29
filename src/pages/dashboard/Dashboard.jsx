@@ -77,7 +77,7 @@ class Dashboard extends Component {
               <Grid item xs={6} sm={6} md={6} lg={6} xl={6} style={{ textAlign: 'center', justifyItems: 'center' }} className='fontDashboard'>
                 <h1>Gerenciamento de Pessoas</h1>
               </Grid>
-              <Grid item xs={6} sm={6} md={6} lg={6} xl={6} style={{ textAlign: 'center' }}>
+              <Grid item xs={6} sm={6} md={6} lg={6} xl={6} style={{ textAlign: 'right', padding: '2%' }}>
                 <PersonDialog state={this.state} handleSave={this.handleSave} handleChange={this.handleChange} />
               </Grid>
               <Grid item xs={12} sm={12} md={12} lg={12} xl={12} style={{ margin: '1%' }}>
